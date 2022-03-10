@@ -1,0 +1,41 @@
+body {
+  background-color: #ffe500;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: transparent;
+  background-color: #dd051f;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pokemon {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.names {
+  padding: 10px;
+  margin: 20px;
+  width: 100px;
+  height: 150px;
+  text-transform: capitalize;
+  background-color: #dd051f;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.buttons {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
